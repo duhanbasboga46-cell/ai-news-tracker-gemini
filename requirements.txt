@@ -1,0 +1,13 @@
+import feedparser
+import google.generativeai as genai
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+from email.mime.application import MIMEApplication
+from fpdf import FPDF # fpdf2 yüklü olsa da bu şekilde çağrılır
+import time
+from datetime import datetime, timedelta
+import urllib.parse
+from newspaper import Article
+
+import os # Sisteme erişim için gerekli
