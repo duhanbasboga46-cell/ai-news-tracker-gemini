@@ -1,4 +1,5 @@
-mermaid```graph LR
+```mermaid
+    graph LR
     A[Haber Kaynakları] --> B{Python Script}
     B --> C[Gemini AI Analiz]
     C --> D[PDF Oluşturma]
